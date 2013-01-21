@@ -1,4 +1,4 @@
-var when = $.when.apply.bind($.when, undefined);
+var when = $.when.apply.bind($, $);
 
 var _mergeDiffs = function (diff, patch) {
     if (!patch) {
